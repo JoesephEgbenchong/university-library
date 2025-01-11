@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import path from "path";
-import { Weight } from "lucide-react";
-
 
 const ibmPlexSans = localFont({
   src: [
@@ -12,7 +9,7 @@ const ibmPlexSans = localFont({
     { path: '/fonts/IBMPlexSans-SemiBold.ttf', weight: '600', style: 'normal' },
     { path: '/fonts/IBMPlexSans-Bold.ttf', weight: '700', style: 'normal' },
   ]
-})
+});
 
 
 const bebasNeue = localFont({
